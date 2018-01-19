@@ -22,4 +22,5 @@ public interface DemoRepository extends JpaRepository<DemoDomain, Long>, QueryDs
         bindings.bind(demoDomain.name).first(StringExpression::contains);
         bindings.bind(demoDomain.id).first(SimpleExpression::eq);
     }
+
 }

@@ -1,0 +1,5 @@
+rootProject.name = 'onlooker'
+
+include 'app', 'admin'
+
+include 'modules_config_core'

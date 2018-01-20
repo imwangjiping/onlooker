@@ -58,7 +58,7 @@ subprojects {
         compile('org.springframework.boot:spring-boot-starter-mobile')
         compile('org.springframework.boot:spring-boot-starter-thymeleaf')
         compile('org.springframework.boot:spring-boot-starter-web')
-        compile('org.springframework.boot:spring-boot-starter-security')
+//        compile('org.springframework.boot:spring-boot-starter-security')
         runtime('mysql:mysql-connector-java')
         compile "com.querydsl:querydsl-jpa:${querydsl_version}"
         compileOnly "com.querydsl:querydsl-apt:${querydsl_version}:jpa"

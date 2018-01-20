@@ -19,8 +19,11 @@ public class DemoDomain extends AbstractAuditingEntity implements Serializable {
     @GeneratedValue(strategy = GenerationType.IDENTITY)
     private Long id;
 
-    @Column(name="name")
-    private String name ;
+    @Column(name = "name")
+    private String name;
+
+    @Column(name = "age")
+    private Integer age;
 
     public Long getId() {
         return id;
@@ -37,4 +40,13 @@ public class DemoDomain extends AbstractAuditingEntity implements Serializable {
     public void setName(String name) {
         this.name = name;
     }
+
+    public Integer getAge() {
+        return age;
+    }
+
+    public void setAge(Integer age) {
+        this.age = age;
+    }
+
 }
